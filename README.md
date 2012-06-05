@@ -6,7 +6,14 @@ WebSQL Binding for JSX
 SYNOPSIS
 ====================
 
+    import "js/web.jsx";
     import "js/websql.jsx";
+
+    // in a function
+
+    var w = websql.asWindowDatabase(dom.window);
+
+    w.openDatabase(...);
 
 NOTE
 ====================
